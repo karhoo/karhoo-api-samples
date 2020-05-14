@@ -8,12 +8,6 @@ assignees:
 
 ## Information
 
-Device:
-
-Android version:
-
-App Version:
-
 Environment:
 
 Frequency (How often does the bug occur?):
