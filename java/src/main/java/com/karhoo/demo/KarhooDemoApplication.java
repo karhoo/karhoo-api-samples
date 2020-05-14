@@ -18,7 +18,6 @@ public class KarhooDemoApplication {
     public static String QUOTES_LIST_URL = "/v1/quotes/%s";
     public static String TRACK_DRIVER_URL = "/v1/bookings/%s/track";
     public static int MAX_WAIT_TIME = 3000;
-    ;
 
     public static void main(String[] args) throws Exception {
 
@@ -35,8 +34,8 @@ public class KarhooDemoApplication {
          *
          * Step 2 - Authenticate and retrieve a JWT and refresh token
          **/
-        String username = "Sean.keane@karhoo.com";
-        String password = "12345678Aa";
+        String username = "[USERNAME_PLACEHOLDER]";
+        String password = "[PASSWORD_PLACEHOLDER]";
         // if you are using a Serverless/Lambda architecture please provide in here the cached JWT and Refresh Token
         KarhooApiClient karhooClient = new KarhooApiClient(username, password, "", "");
 
